@@ -1,0 +1,18 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "TAILWIND_MODE=watch postcss tailwind.css -o ./public/styles.css -w -v",
+    "prod": "NODE_ENV=production postcss tailwind.css -o ./public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "",
+    "postcss-cli": "",
+    "tailwindcss": ""
+  }
+}
